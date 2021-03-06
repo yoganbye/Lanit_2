@@ -21,7 +21,7 @@ public class Lion extends Carnivorous implements Voice, Run {
     }
 
     public void eat (Food food) {
-        System.out.println("Льву дали" + food);
+        System.out.println("Льву дали " + food);
         super.eat(food);
 
     }

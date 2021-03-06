@@ -21,7 +21,7 @@ public class Wolf extends Carnivorous implements Voice, Run {
     }
     
     public void eat (Food food) {
-        System.out.println("Волку дали" + food);
+        System.out.println("Волку дали " + food);
         super.eat(food);
 
     }

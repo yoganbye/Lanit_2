@@ -28,7 +28,7 @@ public class Crocodile extends Carnivorous implements Swim, Voice, Run {
     }
     
     public void eat (Food food) {
-        System.out.println("Крокодилу дали" + food);
+        System.out.println("Крокодилу дали " + food);
         super.eat(food);
 
     }

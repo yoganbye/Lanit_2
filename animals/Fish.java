@@ -16,7 +16,7 @@ public class Fish extends Herbivore implements Swim {
     }
     
     public void eat (Food food) {
-        System.out.println("Рыбе дали" + food);
+        System.out.println("Рыбе дали " + food);
         super.eat(food);
 
     }

@@ -1,12 +1,12 @@
 package animals;
 
 import food.Food;
-import food.Meat;
+import food.Grass;
 
 public abstract class Herbivore extends Animals {
     public void eat(Food food) {
-        if (food instanceof Meat) {
-            System.out.println("Животное сьело мясо!");
+        if (food instanceof Grass) {
+            System.out.println("Животное сьело траву!");
             satiety += food.getValueFood();
             
         } else {

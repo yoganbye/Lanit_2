@@ -18,6 +18,21 @@ public class Zoo {
         Worker worker = new Worker();
         
         worker.feed(duck, rabbitMeat);
+        worker.feed(rabbit, oats);
+        worker.feed(lion, chickenMeat);
+        worker.feed(crocodile, corn);
+
+        worker.feed(fish, corn);
+        fish.getSatiety();
+        worker.feed(fish, corn);
+        fish.getSatiety();
+
+        Animals[] prude = {duck, fish};
+        for (Animals animals : prude) {
+            Swim swimer = (Swim) animals;
+            swimer.swim();
+        }
+
 
 
     }

@@ -1,9 +1,8 @@
 package animals;
 
 import food.Food;
-import food.Meat;
 
-public class Duck extends Carnivorous implements Fly, Swim, Voice, Run {
+public class Duck extends Herbivore implements Fly, Swim, Voice, Run {
 
     @Override
     public String toString(){

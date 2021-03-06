@@ -21,7 +21,7 @@ public class Rabbit extends Herbivore implements Voice, Run {
     }
 
     public void eat (Food food) {
-        System.out.println("Кролику дали" + food);
+        System.out.println("Кролику дали " + food);
         super.eat(food);
 
     }
